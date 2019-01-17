@@ -1,0 +1,24 @@
+{
+  "extends": "eslint-config-egg",
+  "parser": "babel-eslint",
+  "rules": {
+    "space-before-function-paren": [ "off", {
+      "anonymous": "never",
+      "named": "never"
+    }],
+    "no-unused-vars": ["warn"],
+    "no-trailing-spaces": ["off"],
+    "prefer-const": "off",
+    "no-empty": "warn",
+    "eol-last": "off",
+    "valid-jsdoc":"off",
+    "no-empty-function": ["warn"],
+    "no-useless-constructor": ["warn"],
+    "eqeqeq": "error",
+    "no-multiple-empty-lines": "warn",
+    "comma-dangle": 0,
+    "quotes": 0,
+    "array-bracket-spacing": 0,
+    "no-mixed-spaces-and-tabs": 0
+  }
+}
